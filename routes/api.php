@@ -14,7 +14,4 @@ use Illuminate\Http\Request;
 */
 Route::post('/login','UserController@Login');
 Route::post('/etudiant/add','EtudiantController@add');
-Route::post('/etudiant/show','EtudiantController@show');
-Route::post('/etudiant/mesnote','EtudiantController@mesnote');
 Route::post('/enseignent/add','EnseignentController@add');
-Route::post('/enseignent/addnote','EnseignentController@addnote');
